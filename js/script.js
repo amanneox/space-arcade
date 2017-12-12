@@ -494,7 +494,7 @@ tab = game.input.keyboard.addKey(Phaser.Keyboard.TAB);
     playerDeath.makeParticles('explosion', [0,1,2,3,4,5,6,7], 10);
     playerDeath.setAlpha(0.9, 0, 800);
     playerDeath.setScale(0.1, 0.6, 0.1, 0.6, 1000, Phaser.Easing.Quintic.Out);
-    scoreText = game.add.bitmapText(10, 10, 'spacefont', '', 50);
+    scoreText = game.add.bitmapText(20, 10, 'spacefont', '', 50);
     scoreText.render = function () {
         scoreText.text = 'Score: ' + score;
     };
