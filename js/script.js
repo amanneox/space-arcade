@@ -8,7 +8,7 @@ function preload () {
       game.load.image('enemy3', './assets/PNG/Enemies/enemyBlack3.png');
   game.load.image('enemy4', './assets/PNG/Enemies/enemyBlue2.png');
   game.load.image('enemy5', './assets/PNG/Enemies/enemyRed5.png');
-    game.load.image('enemy6', './assets/PNG/Enemies/enemygreen4.png');
+    game.load.image('enemy6', './assets/PNG/Enemies/enemyGreen4.png');
       game.load.image('weapon1', './assets/PNG/Lasers/laserBlue01.png');
         game.load.image('weapon2', './assets/PNG/Lasers/laserRed12.png');
           game.load.image('bluebolt', './assets/PNG/Power-ups/powerupBlue_bolt.png');
